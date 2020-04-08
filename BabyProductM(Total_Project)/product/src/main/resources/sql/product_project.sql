@@ -24,7 +24,7 @@ create table login(
 uname varchar(20),
 pass varchar(20));
 
-insert into login values('sanju','Sanjureddy');
+insert into login values('sanju','Sanju@123');
 
 select * from Babycareproduct;
 select * from login;
