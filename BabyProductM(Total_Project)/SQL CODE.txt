@@ -1,14 +1,14 @@
-DROP DATABASE product;
+DROP DATABASE Babycareproduct;
 
-drop table product;
+drop table Babycareproduct;
 
-create database product;
+create database Babycareproduct;
 
-use product;
+use Babycareproduct;
 
 
 create table 
-product(
+Babycareproduct(
 product_id int(11) NOT NULL AUTO_INCREMENT,
 
 product_name varchar(25) DEFAULT NULL,
@@ -33,10 +33,10 @@ uname varchar(20),
 pass varchar(20));
 
 
-insert into login values('siva','siva@123');
+insert into login values('sanju','sanjuReddy');
 
 
 
 select * from login;
-select * from product;
+select * from Babycareproduct;
 
