@@ -33,7 +33,7 @@ uname varchar(20),
 pass varchar(20));
 
 
-insert into login values('sanju','sanjuReddy');
+insert into login values('sanju','sanju@123');
 
 
 
