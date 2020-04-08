@@ -1,0 +1,42 @@
+DROP DATABASE product;
+
+drop table product;
+
+create database product;
+
+use product;
+
+
+create table 
+product(
+product_id int(11) NOT NULL AUTO_INCREMENT,
+
+product_name varchar(25) DEFAULT NULL,
+
+category varchar(25) DEFAULT NULL,
+
+price numeric(7,2) DEFAULT NULL,
+
+dateOfManufacture date,
+
+dateOfExpiry date,
+
+PRIMARY KEY (product_id)
+
+);
+
+
+
+
+create table login(
+uname varchar(20),
+pass varchar(20));
+
+
+insert into login values('siva','siva@123');
+
+
+
+select * from login;
+select * from product;
+
