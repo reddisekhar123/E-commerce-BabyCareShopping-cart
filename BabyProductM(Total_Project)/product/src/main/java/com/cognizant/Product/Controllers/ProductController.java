@@ -3,10 +3,6 @@ package com.cognizant.Product.Controllers;
 import java.util.List;
 
 import javax.validation.Valid;
-
-//import javax.servlet.http.HttpServletRequest;
-//import javax.servlet.http.HttpServletResponse;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.StringTrimmerEditor;
 import org.springframework.stereotype.Controller;
@@ -18,14 +14,11 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-//import org.springframework.web.servlet.ModelAndView;
-
 import com.cognizant.Product.Entity.Product;
-//import com.cognizant.Product.Service.LogInService;
 import com.cognizant.Product.Service.ProductService;
 
 @Controller
-@RequestMapping("/product")
+@RequestMapping("/Babycareproduct")
 public class ProductController {
 	@Autowired
 	ProductService productService;
