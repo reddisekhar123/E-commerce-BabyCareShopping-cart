@@ -34,7 +34,6 @@ public class ProductServiceImpl implements ProductService {
 	@Override
 	@Transactional
 	public Product getProduct(int theproductId) {
-		// TODO Auto-generated method stub
 		Product product=productDao.getProduct(theproductId);
 		return product;
 	}
@@ -42,13 +41,11 @@ public class ProductServiceImpl implements ProductService {
 	@Override
 	@Transactional
 	public void deleteProduct(int theproductId) {
-		// TODO Auto-generated method stub
 		productDao.deleteProduct(theproductId);
 	}
 	@Override
 	@Transactional
 	public List<Product> getAllProducts(String productName) {
-		// TODO Auto-generated method stub
 		return productDao.getAllProducts(productName);
 	}
 }
