@@ -78,7 +78,7 @@
 <center><table><tr><td><input type="button" value="CLICK HERE:To Add Product" 
 onClick="window.location.href='showFormForAdd';return false;" class="add"/></td>
 
-<td><input type="button" value="CLICK HERE:   To Log me Out" 
+<td><input type="button" value="CLICK HERE:   Log Out" 
 onClick="window.location.href='logout';return false;" class="add"/><br></td>
 <td><a href="${pageContext.request.contextPath}/product/list" class="add" align="center" style="text-decoration:none">click here to go Back</a></td></tr></table></center><br>
 <center>
