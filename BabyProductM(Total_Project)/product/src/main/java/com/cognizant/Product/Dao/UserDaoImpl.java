@@ -26,7 +26,7 @@ public class UserDaoImpl implements UserDAO {
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection con=(Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/product?useSSL=false","root","root");
+			Connection con=(Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/Babycareproduct?useSSL=false","root","@Reddi9652");
 			PreparedStatement pst= (PreparedStatement) con.prepareStatement("select * from Login where uname=? and pass=?");
 			pst.setString(1, uname);
 			pst.setString(2, pass);
