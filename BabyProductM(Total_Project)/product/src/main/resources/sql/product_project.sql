@@ -1,8 +1,8 @@
-DROP DATABASE product;
-create database product;
-use product;
+DROP DATABASE Babycareproduct;
+create database Babycareproduct;
+use Babycareproduct;
 
-create table product(
+create table Babycareproduct(
 product_id int(11) NOT NULL AUTO_INCREMENT,
 product_name varchar(25) DEFAULT NULL,
 category varchar(25) DEFAULT NULL,
@@ -12,11 +12,11 @@ dateOfExpiry date,
 PRIMARY KEY (product_id)
 
 );
-INSERT INTO product VALUES(4,'GAMING LAPTOP','Electrinics',75000,'2020-01-02','2020-06-02');
-INSERT INTO product VALUES(5,'star war toy','Electrinics',75000,'2020-01-02','2020-06-02');
-INSERT INTO product VALUES(6,'dark fantasy','Grocery',75000,'2020-01-02','2020-06-02');
-INSERT INTO product VALUES(7,'i phone','Electrinics',75000,'2020-01-02','2020-06-02');
-INSERT INTO product VALUES(8,'one plus 8','Electrinics',75000,'2020-01-02','2020-06-02');
+INSERT INTO Babycareproduct VALUES(4,'TShirts','clothes',850,'2019-08-07','2020-06-15');
+INSERT INTO Babycareproduct VALUES(5,'Towels','clothes',150,'2019-01-05','2020-12-31');
+INSERT INTO Babycareproduct VALUES(6,'Pushchair','Accessories',7500,'2018-01-02','2020-06-02');
+INSERT INTO Babycareproduct VALUES(7,'ShootingGun','Toy',950,'2020-01-02','2020-06-02');
+INSERT INTO Babycareproduct VALUES(8,'StylishDress','Fashion',1250,'2020-01-05','2020-05-09');
 
 
 
@@ -24,7 +24,7 @@ create table login(
 uname varchar(20),
 pass varchar(20));
 
-insert into login values('nsrt','Nsrt@123');
+insert into login values('sanju','Sanjureddy');
 
-select * from product;
+select * from Babycareproduct;
 select * from login;
