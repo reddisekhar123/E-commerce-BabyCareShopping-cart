@@ -34,10 +34,10 @@ font-family: 'Ubuntu', sans-serif;
 <center class="dt">Category</center><br>
 <center><table class="pass"><tr><td style="float:"><form:radiobutton  path="category"  value="electonics"/>Baby Food</td>
 <td style="float:"><form:radiobutton  path="category"  value="baby&care" />Baby&Care &nbsp&nbsp</td></tr>
-<tr><td style="float:"><form:radiobutton  path="category"  value="groceries"/>Baby Toy &nbsp</td>
-<td style="float:"><form:radiobutton  path="category"  value="homeneed" />Baby Clothes &nbsp&nbsp&nbsp</td></tr>
+<tr><td style="float:"><form:radiobutton  path="category"  value="toys"/>Baby Toys &nbsp</td>
+<td style="float:"><form:radiobutton  path="category"  value="clothes" />Baby Clothes &nbsp&nbsp&nbsp</td></tr>
 <tr><td style="float:"><form:radiobutton  path="category"  value="fashion"/>Baby Fashion &nbsp&nbsp&nbsp&nbsp</td>
-<td style="float:"><form:radiobutton  path="category" value="beautycare"/>Beauty Grocery &nbsp&nbsp</td></tr>
+<td style="float:"><form:radiobutton  path="category" value="accessories"/>Accessories &nbsp&nbsp</td></tr>
 <tr><center><form:errors path="category" cssClass="error"/></center></tr>
 </table></center>
 <center class="dt">Price</center><br>
