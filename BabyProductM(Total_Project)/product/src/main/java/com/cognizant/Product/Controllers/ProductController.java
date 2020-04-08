@@ -18,7 +18,7 @@ import com.cognizant.Product.Entity.Product;
 import com.cognizant.Product.Service.ProductService;
 
 @Controller
-@RequestMapping("/Babycareproduct")
+@RequestMapping("/product")
 public class ProductController {
 	@Autowired
 	ProductService productService;
